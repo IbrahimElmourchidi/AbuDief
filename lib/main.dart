@@ -41,6 +41,7 @@ void main()
 var lastName='mohamed';
 print(lastName);
 print(z);
+print(firstName);
 
 
 }
