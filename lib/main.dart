@@ -1,4 +1,7 @@
 
+import 'human.dart';
+
+
 void main()
 {
   //////////////////////////////   11 print satement //////////////////////////////////////////
@@ -196,7 +199,69 @@ print('///////////////////////////////');
 print(calcPrices(price: 40,discount: 5));
 
 
+///////////////////////////////////////////////////////Encapsulation ///////////////////////////////
+
+Human mahmoud=Human( 180, 85 ,  'black');
+print(mahmoud.skinColor);
+mahmoud.skinColor='white'; //call setter method
+print(mahmoud.skinColor);//call getter method
+print(mahmoud.height);
+print(mahmoud.weight);
+print(mahmoud.hairColor);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 void printStory(){
   print('my name is mahmoud ');
   print('I am watching TV');
