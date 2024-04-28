@@ -1,5 +1,6 @@
 
 import 'human.dart';
+import 'inheritance.dart';
 
 
 void main()
@@ -208,6 +209,19 @@ print(mahmoud.skinColor);//call getter method
 print(mahmoud.height);
 print(mahmoud.weight);
 print(mahmoud.hairColor);
+print('///////////////////////////////////');
+
+
+//////////////////////////////////////////////  Inheritance   //////////////////////////////////////////////////
+Lion skar=Lion('yellow', 180);
+Dog jak=Dog('black', 45);
+Cat ser=Cat('white', 5);
+print(skar.numberOfLimbs);
+print(skar.skinColor);
+skar.eat();
+skar.roar();
+
+
 }
 
 
