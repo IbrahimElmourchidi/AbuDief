@@ -15,5 +15,5 @@ switch(gender){
 
 }
 enum Gender{
-  male,female
+  male,female   ///// create enum
 }
